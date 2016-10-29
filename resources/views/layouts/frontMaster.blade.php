@@ -10,7 +10,7 @@
 
 	<!-- Latest compiled and minified CSS -->
 	
-	{{ Html::style('front/css/bootstrap.min.css') }}
+	{{ Html::style('/front/css/bootstrap.min.css') }}
 
 	{{ Html::style('front/css/style.css')}}
 
