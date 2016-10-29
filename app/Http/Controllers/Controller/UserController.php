@@ -45,8 +45,9 @@ class UserController extends Controller
 			$user->save();
 
 		}
-
-		return view('backoffice.profilepage', array('user' => Auth::user()));
+		$user = Auth::user();
+		return redirect()->action('Controller\UserController@profile', compact('user'));
+		//return view('backoffice.profilepage', array('user' => ));
 
 	}
 
