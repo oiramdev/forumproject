@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
           'password' => bcrypt('spider'),
           'rol' => '2',
           'status' => '1',
-          'virified' => '1',
+          'verified' => '1',
           'avatar' => 'default.jpg'
       ]);
     }
