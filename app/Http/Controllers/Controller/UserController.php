@@ -44,9 +44,9 @@ class UserController extends Controller
 			$user->avatar = $filename;
 			$user->save();
 		}
-		$user = Auth::user();
+		//$user = Auth::user();
 		
-		return redirect()->action('Controller\UserController@profile', compact('user'));
+		return redirect()->action('Controller\UserController@profile');
 
 	}
 
