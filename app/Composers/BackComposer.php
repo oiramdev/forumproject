@@ -16,7 +16,7 @@ class BackComposer
     public function compose($view)
     {
     	$activities = Activity::users()->get();
-    	$allCategorias = Categoria::All(); dd($allCategorias);
+    	$allCategorias = Categoria::All();
     	$allSubcategorias = SubCategoria::All();
     	$allTopics = Topico::All();
 
