@@ -47,7 +47,6 @@ class UserController extends Controller
 		}
 		$user = Auth::user();
 		return redirect()->action('Controller\UserController@profile', compact('user'));
-		//return view('backoffice.profilepage', array('user' => ));
 
 	}
 
